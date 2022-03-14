@@ -30,7 +30,7 @@ class TS_Objeto //representa objetos na tela
 	private:
 	SDL_Rect dest; //onde na tela vai ficar
 	SDL_Rect src; //escala da imagem original
-	SDL_Texture* tex; //textura
+	SDL_Texture* tex; //guarda textura
 	int id=0;
 
 	public:
